@@ -1,62 +1,101 @@
-import React, { Component } from 'react'
-import featureimg from '../../assets/img/features.jpg'
- class Features extends Component {
+import React, { Component } from 'react';
+import featureimg from '../../assets/img/features.jpg';
+
+class Features extends Component {
   render() {
     return (
       <div>
-        
-    <section id="features" class="features section">
+        <section id="features" className="features section" dir="rtl">
+          <div className="container">
+            <div className="row justify-content-around gy-4">
+              <div
+                className="features-image col-lg-6"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <img src={featureimg} alt=""/>
+              </div>
 
-      <div class="container">
+              <div
+                className="col-lg-5 d-flex flex-column justify-content-center"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>ميزات موقعنا</h3>
+                <p>
+                  موقعنا يهدف إلى تسهيل التواصل بين المرضى والعيادات وتنظيم المواعيد بكل سهولة وفعالية.
+                </p>
 
-        <div class="row justify-content-around gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src={featureimg} alt=""/></div>
+                <div
+                  className="icon-box d-flex position-relative"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i className="fa-solid fa-calendar-check flex-shrink-0"></i>
+                  <div>
+                    <h4>
+                      <a href="" className="stretched-link">تنظيم المواعيد</a>
+                    </h4>
+                    <p>
+                      يمكنك حجز المواعيد بسهولة مع العيادات المناسبة لك عبر موقعنا.
+                    </p>
+                  </div>
+                </div>
 
-          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+                <div
+                  className="icon-box d-flex position-relative"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i className="fa-solid fa-comments flex-shrink-0"></i>
+                  <div>
+                    <h4>
+                      <a href="" className="stretched-link">التواصل المباشر</a>
+                    </h4>
+                    <p>
+                      نوفر وسيلة تواصل مباشرة بين المرضى والأطباء لتسهيل الاستفسارات.
+                    </p>
+                  </div>
+                </div>
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <div
+                  className="icon-box d-flex position-relative"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
+                  <i className="fa-solid fa-user-md flex-shrink-0"></i>
+                  <div>
+                    <h4>
+                      <a href="" className="stretched-link">اختيار الطبيب المناسب</a>
+                    </h4>
+                    <p>
+                      يمكنك البحث عن الأطباء المتخصصين واختيار الأنسب لحالتك الصحية.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="icon-box d-flex position-relative"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <i className="fa-solid fa-clinic-medical flex-shrink-0"></i>
+                  <div>
+                    <h4>
+                      <a href="" className="stretched-link">إدارة العيادات</a>
+                    </h4>
+                    <p>
+                      نوفر للعيادات أدوات لإدارة المواعيد والمرضى بسهولة وفعالية.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-              </div>
-            </div>
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-              <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-              </div>
-            </div>
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-              <i class="fa-solid fa-lungs flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
-              </div>
-            </div>
-
           </div>
-        </div>
-
+        </section>
       </div>
-
-    </section>
-      </div>
-    )
+    );
   }
 }
 
-export default Features
+export default Features;
