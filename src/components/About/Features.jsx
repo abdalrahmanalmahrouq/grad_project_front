@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import featureimg from '../../assets/img/features.jpg';
+import { Button } from 'react-bootstrap';
 
 class Features extends Component {
   render() {
@@ -13,7 +14,7 @@ class Features extends Component {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <img src={featureimg} alt=""/>
+                <img src="https://img.freepik.com/free-photo/hands-unrecognizable-female-doctor-writing-form-typing-laptop-keyboard_1098-20374.jpg?t=st=1745157377~exp=1745160977~hmac=b982e93510aa515eb225257af67e039f00984eebe7f15da3e16cb3a0bc12c826&w=1380"alt=""/>
               </div>
 
               <div
@@ -32,7 +33,7 @@ class Features extends Component {
                   data-aos-delay="300"
                 >
                   <i className="fa-solid fa-calendar-check flex-shrink-0"></i>
-                  <div>
+                  <div className='features-info'>
                     <h4>
                       <a href="" className="stretched-link">تنظيم المواعيد</a>
                     </h4>
@@ -48,7 +49,7 @@ class Features extends Component {
                   data-aos-delay="400"
                 >
                   <i className="fa-solid fa-comments flex-shrink-0"></i>
-                  <div>
+                  <div className='features-info'>
                     <h4>
                       <a href="" className="stretched-link">التواصل المباشر</a>
                     </h4>
@@ -64,7 +65,7 @@ class Features extends Component {
                   data-aos-delay="500"
                 >
                   <i className="fa-solid fa-user-md flex-shrink-0"></i>
-                  <div>
+                  <div className='features-info'>
                     <h4>
                       <a href="" className="stretched-link">اختيار الطبيب المناسب</a>
                     </h4>
@@ -80,17 +81,38 @@ class Features extends Component {
                   data-aos-delay="600"
                 >
                   <i className="fa-solid fa-clinic-medical flex-shrink-0"></i>
-                  <div>
+                  <div className='features-info'>
                     <h4>
                       <a href="" className="stretched-link">إدارة العيادات</a>
                     </h4>
                     <p>
                       نوفر للعيادات أدوات لإدارة المواعيد والمرضى بسهولة وفعالية.
                     </p>
+                   
                   </div>
                 </div>
+
+                <div
+                  className="icon-box d-flex position-relative"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <i className="fa-solid fa-user-plus flex-shrink-0"></i>
+                  <div className='features-info'>
+                    <h4>
+                     
+                    </h4>
+                    <p>
+                    <Button className='btn btn-danger'>سجل الان ! </Button>
+                    </p>
+                   
+                  </div>
+                </div>
+
+                {/* <Button className='btn btn-info'>Register Now ! </Button> */}
               </div>
             </div>
+          
           </div>
         </section>
       </div>

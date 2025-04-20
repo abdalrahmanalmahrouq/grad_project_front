@@ -14,8 +14,8 @@ class AboutHome extends Component {
         <div className="container">
         <div className="row gy-4">
           <div className="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-          <img src={aboutimg} className="img-fluid" alt=""/>
-          <a href="" className="glightbox pulsating-play-btn"></a>
+          <img src="https://img.freepik.com/free-photo/empty-doctors-workplace-room-with-desk-technology_482257-14017.jpg?t=st=1745157266~exp=1745160866~hmac=f4b02819eee54fa8a0b2b38b92e5bf853feac397d1e135b4ff6fb4e245117907&w=1380" className="img-fluid" alt=""/>
+          {/* <a href="" className="glightbox pulsating-play-btn"></a> */}
           </div>
           <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
           <h3>نحن نسعى لتقديم حلول مبتكرة في مجال الرعاية الصحية.</h3>
