@@ -93,17 +93,17 @@ class Features extends Component {
                 </div>
 
                 <div
-                  className="icon-box d-flex position-relative"
+                  className="button-feature d-flex position-relative"
                   data-aos="fade-up"
                   data-aos-delay="600"
                 >
-                  <i className="fa-solid fa-user-plus flex-shrink-0"></i>
+                  <i ></i>
                   <div className='features-info'>
                     <h4>
                      
                     </h4>
                     <p>
-                    <Button className='btn btn-danger'>سجل الان ! </Button>
+                    <Button className='btn btn'>سجل الان ! </Button>
                     </p>
                    
                   </div>

@@ -10,7 +10,7 @@
   
 
 .top-page-banner{
-    background-image: url(https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61805.jpg?t=st=1745163601~exp=1745167201~hmac=ae7ec6b94fa8384c926e83de9cf75203d8594037e61eae593c461f52d455f06e&w=1060);
+    background-image: url(https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61806.jpg?t=st=1745251540~exp=1745255140~hmac=ebb097baa8773118bc2c448c00604a840f030bf7adb83cd2387e856b18e9f8af&w=826);
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -71,4 +71,35 @@
 
 .nav-back-scroll{
   background-color: #ffffff;
+}
+.button-feature{
+  padding-top: 30px;
+  padding-right: 23px;
+}
+
+
+
+
+
+#hero-carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+  height: 100vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+}
+.background0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); /* example overlay */
+  color: white;
+  display: flex;
+  align-items: center;
 }
