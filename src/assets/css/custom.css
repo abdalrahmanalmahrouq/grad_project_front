@@ -9,7 +9,7 @@
   }
   
 
-.TopPageBanner{
+.top-page-banner{
     background-image: url(https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61805.jpg?t=st=1745163601~exp=1745167201~hmac=ae7ec6b94fa8384c926e83de9cf75203d8594037e61eae593c461f52d455f06e&w=1060);
     min-height: 300px;
     background-attachment: fixed;
@@ -19,18 +19,18 @@
    
   }
 
-  .TopPageLayout{
+  .top-page-layout{
     position: absolute;
     min-height: 300px;
     width: 100%;
     background: rgba(21, 214, 156, 0.295);
   }
 
-  .TopPageText{
+  .top-page-text{
     margin-top: 10em;
   }
   
-  .TopPageTitle{
+  .top-page-title{
     text-align: center;
     font-size:50px;
     color: var(--accent-color);
@@ -41,7 +41,7 @@
   .features-info{
     padding-right: 7pt;
   }
-   .Row-Card{
+   .row-card{
     padding-bottom: 30px;
    }
 
@@ -64,3 +64,11 @@
     width: 286px;
     height: 200px;
   }
+
+  .feature-pargraph{
+    width: 80%;
+  }
+
+.nav-back-scroll{
+  background-color: #ffffff;
+}

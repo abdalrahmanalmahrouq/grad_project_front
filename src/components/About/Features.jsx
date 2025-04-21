@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 class Features extends Component {
   render() {
     return (
-      <div>
+      <div dir="rtl">
         <section id="features" className="features section" dir="rtl">
           <div className="container">
             <div className="row justify-content-around gy-4">

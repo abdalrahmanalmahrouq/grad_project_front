@@ -5,12 +5,12 @@ import { Col, Container, Row } from 'react-bootstrap'
   render() {
     return (
       <Fragment>
-        <Container  fluid={true} className='TopPageBanner  p-0'>
-            <div className='TopPageLayout'>
+        <Container  fluid={true} className='top-page-banner  p-0'>
+            <div className='top-page-layout'>
                 <Container>
                     <Row>
-                        <Col className='TopPageText'>
-                        <h1 className='TopPageTitle'>{this.props.pageTitle}</h1>
+                        <Col className='top-page-text'>
+                        <h1 className='top-page-title'>{this.props.pageTitle}</h1>
                         </Col>
                     </Row>
                 </Container>

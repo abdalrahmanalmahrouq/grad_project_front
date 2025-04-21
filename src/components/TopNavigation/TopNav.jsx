@@ -4,6 +4,29 @@ import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 class TopNav extends Component {
+
+  constructor(){
+    super();
+    this.state={
+        navMenu:"header d-flex align-items-center fixed-top"
+    }
+  }
+
+  onScroll = () => {
+    if (window.scrollY > 100) {
+      this.setState({ navMenu: "nav-back-scroll d-flex align-items-center fixed-top header" });
+    } else {
+      this.setState({ navMenu: "header d-flex align-items-center fixed-top"  });
+    }
+  }
+
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.onScroll);
+    }
+
+
+
   toggleMobileNav = () => {
     document.body.classList.toggle('mobile-nav-active');
   };
@@ -13,8 +36,8 @@ class TopNav extends Component {
   render() {
     return (
       <div dir="rtl">
-        <header id="header" className="header d-flex align-items-center fixed-top">
-          <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <header id="header" className={this.state.navMenu}>
+          <div className= "container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
             {/* Logo */}
             <NavLink to="/" className="logo d-flex align-items-center">

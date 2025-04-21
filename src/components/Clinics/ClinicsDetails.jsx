@@ -11,7 +11,7 @@ class ClinicsDetails extends Component {
         <h2>احجز الآن<br/></h2>
         <p>نحن منصة تربط بين المرضى والعيادات لتسهيل حجز المواعيد والتواصل بينهم بكل سهولة وفعالية.</p>
         </div>
-                    <Row className="justify-content-center g-4 Row-Card">
+                    <Row className="justify-content-center g-4 row-card">
                         <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
                             <Card style={{ width: '18rem' }} className='clinics-card'>
                                 <Card.Img variant="top" src={img}  className='card-img-clinics'/>
@@ -52,7 +52,7 @@ class ClinicsDetails extends Component {
                         </Col>
                     </Row>
 
-                    <Row className="justify-content-center g-4 Row-Card">
+                    <Row className="justify-content-center g-4 row-card">
                         <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
                             <Card style={{ width: '18rem' }} className='clinics-card'>
                                 <Card.Img variant="top" src={img}  className='card-img-clinics'/>

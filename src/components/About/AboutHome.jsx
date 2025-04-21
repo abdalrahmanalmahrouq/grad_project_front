@@ -4,7 +4,7 @@ import aboutimg from '../../assets/img/about.jpg'
 class AboutHome extends Component {
   render() {
     return (
-      <div>
+      <div >
       <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
         <h2>من نحن<br/></h2>
@@ -17,7 +17,7 @@ class AboutHome extends Component {
           <img src="https://img.freepik.com/free-photo/empty-doctors-workplace-room-with-desk-technology_482257-14017.jpg?t=st=1745157266~exp=1745160866~hmac=f4b02819eee54fa8a0b2b38b92e5bf853feac397d1e135b4ff6fb4e245117907&w=1380" className="img-fluid" alt=""/>
           {/* <a href="" className="glightbox pulsating-play-btn"></a> */}
           </div>
-          <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+          <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="200" dir="rtl">
           <h3>نحن نسعى لتقديم حلول مبتكرة في مجال الرعاية الصحية.</h3>
           <p className="fst-italic">
             هدفنا هو تسهيل عملية حجز المواعيد والتواصل بين المرضى والعيادات بطريقة مريحة وآمنة.
