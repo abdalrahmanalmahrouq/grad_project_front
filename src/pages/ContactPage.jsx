@@ -11,7 +11,7 @@ import TopPageDetails from '../components/TopPageDetails/TopPageDetails';
   render() {
     return (
       <div>
-        <TopNav/>
+        <TopNav button="ابدأ الآن"/>
         
         <TopPageDetails pageTitle="تواصل معنا"/>
         <ContactHome/>

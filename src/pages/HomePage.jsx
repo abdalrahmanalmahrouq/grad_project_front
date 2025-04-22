@@ -16,7 +16,7 @@ import HeroCarousel from '../components/TopBanner/HeroCarousel'
   render() {
     return (
       <div>
-        <TopNav/>
+        <TopNav button="ابدأ الآن"/>
         <TopBanner/>
         {/* <HeroCarousel/> */}
         <FeatureBanner/>

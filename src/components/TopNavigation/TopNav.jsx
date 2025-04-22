@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../../assets/img/logo (2).png';
+import logo2 from '../../assets/img/logo(3).png'
 import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -59,7 +60,7 @@ class TopNav extends Component {
             </nav>
 
             {/* CTA */}
-            <a className="cta-btn me-3" href="index.html#appointment">ابدأ الآن</a>
+            <NavLink className="cta-btn me-3" to="/register/patient/page1">{this.props.button}</NavLink>
           </div>
         </header>
       </div>

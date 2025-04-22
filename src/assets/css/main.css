@@ -858,20 +858,20 @@ section,
 }
 
 .hero .container {
-  background: color-mix(in srgb, var(--surface-color), transparent 12%);
+  background: color-mix(in srgb, var(--surface-color), transparent 40%);
   position: relative;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 80px;
-  border-top: 4px solid var(--accent-color);
+  /* border-top: 4px solid var(--accent-color); */
   z-index: 3;
 }
 
 @media (max-width: 1200px) {
   .hero .container {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 

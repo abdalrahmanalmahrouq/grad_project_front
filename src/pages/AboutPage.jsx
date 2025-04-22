@@ -12,7 +12,7 @@ export class AboutPage extends Component {
   render() {
     return (
       <div>
-        <TopNav/>
+        <TopNav button="ابدأ الآن"/>
         <TopPageDetails pageTitle="من نحن"/>
         <AboutHome/>
         <AboutDetails/>
