@@ -317,6 +317,7 @@ h6 {
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
+  
   }
 
   .navmenu a i,
@@ -437,6 +438,7 @@ h6 {
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
+    width: fit-content;
   }
 
   .navmenu a i,

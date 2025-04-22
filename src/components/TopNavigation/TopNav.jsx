@@ -53,6 +53,7 @@ class TopNav extends Component {
                 <li><NavLink to="/about">من نحن</NavLink></li>
                 <li><NavLink to="/clinics">العيادات</NavLink></li>
                 <li><NavLink to="/contact">اتصل بنا</NavLink></li>
+                <NavLink className="cta-btn me-3" to="/register/patient/page1">{this.props.button}</NavLink>
               </ul>
 
               {/* Hamburger toggle */}
@@ -60,7 +61,7 @@ class TopNav extends Component {
             </nav>
 
             {/* CTA */}
-            <NavLink className="cta-btn me-3" to="/register/patient/page1">{this.props.button}</NavLink>
+          
           </div>
         </header>
       </div>
