@@ -16,6 +16,72 @@ import digestive_img from '../../assets/img/clinics/digestive.jpg'
 
 class ClinicsDetails extends Component {
     render() {
+
+        const clinics = [
+            {
+              title: "عيادة الأسنان",
+              description: "نقدم خدمات شاملة للعناية بالأسنان باستخدام أحدث التقنيات.",
+              image: teeth_img
+            },
+            {
+              title: "عيادة العيون",
+              description: "فحص شامل للعيون وعلاج مشاكل الرؤية بأحدث الأجهزة.",
+              image: eyes_img
+            },
+            {
+              title: "عيادة الأطفال",
+              description: "رعاية طبية متكاملة للأطفال من جميع الأعمار.",
+              image: kid_img
+            },
+            {
+              title: "عيادة الجلدية",
+              description: "علاج مشاكل البشرة والشعر بأحدث التقنيات.",
+              image: skin_img
+            },
+            {
+              title: "عيادة القلب",
+              description: "تشخيص وعلاج أمراض القلب بأيدي أطباء متخصصين.",
+              image: heart_img
+            },
+            {
+              title: "عيادة النساء",
+              description: "خدمات طبية شاملة للنساء في جميع المراحل العمرية.",
+              image: women_img
+            },
+            {
+              title: "عيادة الأنف والأذن والحنجرة",
+              description: "تشخيص وعلاج أمراض الأنف والأذن والحنجرة.",
+              image: ears_img
+            },
+            {
+              title: "عيادة العظام",
+              description: "علاج مشاكل العظام والمفاصل بأحدث الطرق الطبية.",
+              image: bone_img
+            },
+            {
+              title: "عيادة الأعصاب",
+              description: "رعاية متخصصة لعلاج أمراض الجهاز العصبي.",
+              image: neuron_img
+            },
+            {
+              title: "عيادة الجهاز الهضمي",
+              description: "تشخيص وعلاج أمراض الجهاز الهضمي والكبد.",
+              image: digestive_img
+            },
+            {
+              title: "عيادة الصدر",
+              description: "علاج أمراض الجهاز التنفسي والرئة.",
+              image: chest_img
+            },
+            {
+              title: "عيادة الباطنية",
+              description: "تقديم خدمات طبية شاملة للأمراض الباطنية.",
+              image: interior_img
+            },
+          ];
+
+          
+
         return (
             <Fragment className='text-center' >
             <Container className='pt-5 text-center ' data-aos="fade-up" data-aos-delay="200">
@@ -24,169 +90,21 @@ class ClinicsDetails extends Component {
         <h2>احجز الآن<br/></h2>
         <p>نحن منصة تربط بين المرضى والعيادات لتسهيل حجز المواعيد والتواصل بينهم بكل سهولة وفعالية.</p>
         </div>
-                <Row className="justify-content-center g-4 row-card" data-aos="fade-up" data-aos-delay="200">
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
+                        <Row className="justify-content-center g-4 row-card" >
+                {clinics.map((clinic, index) => (
+                    <Col key={index} lg={4} md={6} sm={12} className="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
                     <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={teeth_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة الأسنان</Card.Title>
-                        <Card.Text>
-                        نقدم خدمات شاملة للعناية بالأسنان باستخدام أحدث التقنيات.
-                        </Card.Text>
+                        <Card.Img variant="top" src={clinic.image} className='card-img-clinics' />
+                        <Card.Body>
+                        <Card.Title>{clinic.title}</Card.Title>
+                        <Card.Text>{clinic.description}</Card.Text>
                         <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
+                        </Card.Body>
                     </Card>
-                </Col>
-
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={eyes_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة العيون</Card.Title>
-                        <Card.Text>
-                        فحص شامل للعيون وعلاج مشاكل الرؤية بأحدث الأجهزة.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={kid_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة الأطفال</Card.Title>
-                        <Card.Text>
-                        رعاية طبية متكاملة للأطفال من جميع الأعمار.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
+                    </Col>
+                ))}
                 </Row>
 
-                <Row className="justify-content-center g-4 row-card" data-aos="fade-up" data-aos-delay="200">
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={skin_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة الجلدية</Card.Title>
-                        <Card.Text>
-                        علاج مشاكل البشرة والشعر بأحدث التقنيات.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={heart_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة القلب</Card.Title>
-                        <Card.Text>
-                        تشخيص وعلاج أمراض القلب بأيدي أطباء متخصصين.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={women_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة النساء</Card.Title>
-                        <Card.Text>
-                        خدمات طبية شاملة للنساء في جميع المراحل العمرية.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-                </Row>
-
-                <Row className="justify-content-center g-4" data-aos="fade-up" data-aos-delay="200">
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={ears_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة الأنف والأذن والحنجرة</Card.Title>
-                        <Card.Text>
-                        تشخيص وعلاج أمراض الأنف والأذن والحنجرة.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={bone_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة العظام</Card.Title>
-                        <Card.Text>
-                        علاج مشاكل العظام والمفاصل بأحدث الطرق الطبية.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={neuron_img}  className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة الأعصاب</Card.Title>
-                        <Card.Text>
-                        رعاية متخصصة لعلاج أمراض الجهاز العصبي.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-                </Row>
-
-                <Row className="justify-content-center g-4" data-aos="fade-up" data-aos-delay="200">
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={digestive_img} className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة الجهاز الهضمي</Card.Title>
-                        <Card.Text>
-                        تشخيص وعلاج أمراض الجهاز الهضمي والكبد.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={chest_img} className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة الصدر</Card.Title>
-                        <Card.Text>
-                        علاج أمراض الجهاز التنفسي والرئة.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
-                    <Card style={{ width: '18rem' }} className='clinics-card'>
-                    <Card.Img variant="top" src={interior_img} className='card-img-clinics'/>
-                    <Card.Body>
-                        <Card.Title>عيادة الباطنية</Card.Title>
-                        <Card.Text>
-                        تقديم خدمات طبية شاملة للأمراض الباطنية.
-                        </Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
-                    </Card.Body>
-                    </Card>
-                </Col>
-                </Row>
             </Container>
             </Fragment>
         )
