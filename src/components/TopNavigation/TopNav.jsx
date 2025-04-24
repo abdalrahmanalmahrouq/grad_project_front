@@ -42,7 +42,7 @@ class TopNav extends Component {
             
             {/* Logo */}
             <NavLink to="/" >
-              <img src={logo2} alt="ميديسينا" className="logo d-flex align-items-center me-auto" style={{height:"70px",width:"150px"}} />
+              <img src={logo2} alt="ميديسينا" className="logo d-flex align-items-center me-auto" style={{height:"90px",width:"100px"}} />
              
             </NavLink>
 
