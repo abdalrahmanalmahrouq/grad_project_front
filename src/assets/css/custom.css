@@ -23,7 +23,7 @@
     position: absolute;
     min-height: 300px;
     width: 100%;
-    background: rgba(21, 214, 156, 0.295);
+
   }
 
   .top-page-text{
@@ -125,19 +125,38 @@
 }
 
 .form-box{
-  background-color: rgb(173, 166, 153);
+  background-color: #3d83c0cf;
  
   border-radius: 5%;
   margin-top: 35pt;
   margin-bottom: 35pt;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Tajawal', Courier, monospace;
   font-weight: 700;
   padding-left: 20pt;
   padding-right: 20pt;
+  box-shadow: 0 8px 20px rgba(2, 2, 2, 0.15);
+
+}
+
+@media (max-width: 1200px){
+  .form-box{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 .form-title{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Tajawal', Courier, monospace;
   font-weight: 900;
   padding-top: 20pt;
 }
+.links-buttons{
+  font-family: 'Tajawal', Courier, monospace;
+  font-weight: 900;
+  color: var(--default-color);
+}
+
+p ,h3, input ,textarea{
+direction: rtl;
+}
+

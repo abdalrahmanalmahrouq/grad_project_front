@@ -4,14 +4,14 @@ import img from '../../assets/img/doctors/doctors-1.jpg'
 class ClinicsDetails extends Component {
     render() {
         return (
-            <Fragment className='text-center'>
+            <Fragment className='text-center' >
                 <Container className='pt-5 text-center ' data-aos="fade-up" data-aos-delay="200">
 
                 <div className="container section-title" data-aos="fade-up">
         <h2>احجز الآن<br/></h2>
         <p>نحن منصة تربط بين المرضى والعيادات لتسهيل حجز المواعيد والتواصل بينهم بكل سهولة وفعالية.</p>
         </div>
-                    <Row className="justify-content-center g-4 row-card">
+                    <Row className="justify-content-center g-4 row-card" data-aos="fade-up" data-aos-delay="200">
                         <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
                             <Card style={{ width: '18rem' }} className='clinics-card'>
                                 <Card.Img variant="top" src={img}  className='card-img-clinics'/>
@@ -52,7 +52,7 @@ class ClinicsDetails extends Component {
                         </Col>
                     </Row>
 
-                    <Row className="justify-content-center g-4 row-card">
+                    <Row className="justify-content-center g-4 row-card" data-aos="fade-up" data-aos-delay="200">
                         <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
                             <Card style={{ width: '18rem' }} className='clinics-card'>
                                 <Card.Img variant="top" src={img}  className='card-img-clinics'/>
@@ -93,7 +93,7 @@ class ClinicsDetails extends Component {
                         </Col>
                     </Row>
 
-                    <Row className="justify-content-center g-4">
+                    <Row className="justify-content-center g-4" data-aos="fade-up" data-aos-delay="200">
                         <Col lg={4} md={6} sm={12} className="d-flex justify-content-center">
                             <Card style={{ width: '18rem' }} className='clinics-card'>
                                 <Card.Img variant="top" src={img}  className='card-img-clinics'/>

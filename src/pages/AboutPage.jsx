@@ -11,8 +11,8 @@ export class AboutPage extends Component {
     }
   render() {
     return (
-      <div>
-        <TopNav button="ابدأ الآن"/>
+      <div dir='rtl'>
+        <TopNav />
         <TopPageDetails pageTitle="من نحن"/>
         <AboutHome/>
         <AboutDetails/>

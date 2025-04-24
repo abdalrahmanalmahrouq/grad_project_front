@@ -46,7 +46,7 @@ class ContactHome extends Component {
                     >
                       <i className="bi bi-phone"></i>
                       <h3>اتصل بنا</h3>
-                      <p>+79 10 44 738</p>
+                      <p dir='ltr'>+79 10 44 738</p>
                     </div>
                   </div>
 

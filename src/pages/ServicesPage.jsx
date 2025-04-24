@@ -10,7 +10,7 @@ import TopPageDetails from '../components/TopPageDetails/TopPageDetails';
   render() {
     return (
       <div>
-        <TopNav button="ابدأ الآن"/>
+        <TopNav />
         <TopPageDetails pageTitle="خدماتنا"/>
         <Services/>
         <Footer/>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../../assets/img/logo (2).png';
-import logo2 from '../../assets/img/logo(3).png'
+import logo from '../../assets/img/logo2.png'
+import logo2 from '../../assets/img/mid1.png'
 import { Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -39,11 +39,11 @@ class TopNav extends Component {
       <div dir="rtl">
         <header id="header" className={this.state.navMenu}>
           <div className= "container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
+            
             {/* Logo */}
-            <NavLink to="/" className="logo d-flex align-items-center">
-              <img src={logo} alt="ميديسينا" />
-              <h1 className="sitename ms-2">ميديسينا</h1>
+            <NavLink to="/" >
+              <img src={logo2} alt="ميديسينا" className="logo d-flex align-items-center me-auto" style={{height:"70px",width:"150px"}} />
+             
             </NavLink>
 
             {/* Nav */}
@@ -53,11 +53,21 @@ class TopNav extends Component {
                 <li><NavLink to="/about">من نحن</NavLink></li>
                 <li><NavLink to="/clinics">العيادات</NavLink></li>
                 <li><NavLink to="/contact">اتصل بنا</NavLink></li>
-                <NavLink className="cta-btn me-3" to="/register/patient/page1">{this.props.button}</NavLink>
+                <li class="dropdown" dir='rtl'  > <NavLink ><span>تسجيل الدخول </span> <i class="bi bi-chevron-down toggle-dropdown "></i></NavLink>
+                  <ul class="dropdown-active" >
+                    <li> <NavLink  to="/register/patient">مريض</NavLink></li>
+                    <li> <NavLink  to="/register/patient/page1">عيادة</NavLink></li>
+                    <li> <NavLink  to="/register/patient/page1">طبيب</NavLink></li>
+                    <li> <NavLink  to="/register/patient/page1">مختبر</NavLink></li>
+                 
+                  </ul>
+                </li>
+            
               </ul>
 
               {/* Hamburger toggle */}
               <i className="mobile-nav-toggle d-xl-none bi bi-list" onClick={this.toggleMobileNav}></i>
+              
             </nav>
 
             {/* CTA */}

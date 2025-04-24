@@ -5,8 +5,8 @@ import AboutPage from '../pages/AboutPage'
 import ContactPage from '../pages/ContactPage'
 import ServicesPage from '../pages/ServicesPage'
 import ClinicsPage from '../pages/ClinicsPage'
-import PatientRegisterPage1 from '../pages/RegisterPages/PatientRegisterPage1'
-import PatientRegisterPage2 from '../pages/RegisterPages/PatientRegisterPage2'
+import PatientRegister from '../pages/RegisterPages/PatientRegister'
+
 class AppRouter extends Component {
   render() {
     return (
@@ -20,8 +20,8 @@ class AppRouter extends Component {
           <Route path='/clinics' element={ <ClinicsPage/>}/>
 
 
-          <Route path='/register/patient/page1' element={ <PatientRegisterPage1/>}/>
-          <Route path='/register/patient/page2' element={ <PatientRegisterPage2/>}/>
+          <Route path='/register/patient' element={ <PatientRegister/>}/>
+        
           
       </Routes>
   </Fragment>

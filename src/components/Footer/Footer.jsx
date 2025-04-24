@@ -16,7 +16,7 @@ class Footer extends Component {
                               <p>شارع تكنولوجيا المعلومات 100</p>
                               <p>الجامعة الهاشمية HU 330127</p>
                               <p className="mt-3">
-                                <strong>الهاتف:</strong> <span>+79 10 44 738</span>
+                                <strong>الهاتف:</strong> <span dir='ltr'>+79 10 44 738</span>
                               </p>
                               <p>
                                 <strong>البريد الإلكتروني:</strong> <span>medicinahu@gmail.com</span>
