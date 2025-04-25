@@ -12,7 +12,6 @@ import TopPageDetails from '../components/TopPageDetails/TopPageDetails';
     return (
       <div>
         <TopNav />
-        
         <TopPageDetails pageTitle="تواصل معنا"/>
         <ContactHome/>
         <Footer/>

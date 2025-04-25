@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { Carousel } from 'bootstrap';
 
-import imghero1 from '../../assets/img/Adobe Express - file (1) (1).png';
-import imghero2 from '../../assets/img/Adobe Express - file (1) (1).jpg';
-import imghero3 from '../../assets/img/Adobe Express - file (2).jpg';
+import imghero1 from '../../assets/img/topbanner/Adobe Express - file (1) (1).png';
+import imghero2 from '../../assets/img/topbanner/Adobe Express - file (1) (1).jpg';
+import imghero3 from '../../assets/img/topbanner/Adobe Express - file (2).jpg';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';

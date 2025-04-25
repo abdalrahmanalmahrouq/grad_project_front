@@ -8,7 +8,6 @@ import Features from '../components/About/Features'
 import Services from '../components/Services/Services'
 import Footer from '../components/Footer/Footer'
 import ContactHome from '../components/Contact/ContactHome'
-import HeroCarousel from '../components/TopBanner/HeroCarousel'
  class HomePage extends Component {
   componentDidMount(){
     window.scrollTo(0,0);
@@ -18,7 +17,6 @@ import HeroCarousel from '../components/TopBanner/HeroCarousel'
       <div>
         <TopNav />
         <TopBanner/>
-        {/* <HeroCarousel/> */}
         <FeatureBanner/>
         <AboutHome/>
         <States/>

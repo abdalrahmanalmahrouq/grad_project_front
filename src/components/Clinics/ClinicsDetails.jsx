@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import img from '../../assets/img/doctors/doctors-1.jpg'
 import kid_img from '../../assets/img/clinics/kids.jpg'
 import eyes_img from '../../assets/img/clinics/eyes.jpg'
 import teeth_img from '../../assets/img/clinics/teeth.jpg'

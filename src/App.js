@@ -16,12 +16,6 @@ import './assets/css/custom.css'
 
 
 
-
-
-import { Carousel } from 'react-bootstrap';
-
-
-
 class App extends Component {
   render(){
   return (

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import aboutimg from '../../assets/img/about.jpg'
+
 
 class AboutHome extends Component {
   render() {
     return (
-      <div >
+      <div className='about-details'>
       <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
         <h2>من نحن<br/></h2>

@@ -14,7 +14,7 @@ export class AboutPage extends Component {
       <div dir='rtl'>
         <TopNav />
         <TopPageDetails pageTitle="من نحن"/>
-        <AboutHome/>
+        {/* <AboutHome/> */}
         <AboutDetails/>
         <Footer/>
       </div>

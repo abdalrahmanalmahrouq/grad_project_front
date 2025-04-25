@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import featureimg from '../../assets/img/features.jpg';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Features extends Component {
   render() {
@@ -103,7 +103,7 @@ class Features extends Component {
                      
                     </h4>
                     <p>
-                    <Button className='btn btn'>سجل الان ! </Button>
+                   <Link to={'/register/patient'}> <Button className='btn btn'>سجل الان ! </Button></Link>
                     </p>
                    
                   </div>
