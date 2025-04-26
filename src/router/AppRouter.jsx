@@ -6,7 +6,18 @@ import ContactPage from '../pages/ContactPage'
 import ClinicsPage from '../pages/ClinicsPage'
 import PatientRegister from '../pages/RegisterPages/PatientRegister'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 class AppRouter extends Component {
+  
+   componentDidMount() {
+        AOS.init({
+          duration: 1000,
+          once: true,
+        });
+      }
+      
   render() {
     return (
       <Fragment>

@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import TopNav from '../components/TopNavigation/TopNav'
-import AboutHome from '../components/About/AboutHome'
+
 import AboutDetails from '../components/About/AboutDetails'
 import Footer from '../components/Footer/Footer'
 import TopPageDetails from '../components/TopPageDetails/TopPageDetails'
+import AboutHome from '../components/About/AboutHome'
 
 export class AboutPage extends Component {
     componentDidMount(){
@@ -14,7 +15,7 @@ export class AboutPage extends Component {
       <div dir='rtl'>
         <TopNav />
         <TopPageDetails pageTitle="من نحن"/>
-        {/* <AboutHome/> */}
+        {/* <AboutHome/>    */}
         <AboutDetails/>
         <Footer/>
       </div>

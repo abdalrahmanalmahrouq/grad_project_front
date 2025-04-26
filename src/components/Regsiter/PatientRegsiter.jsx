@@ -6,7 +6,7 @@ export class PatientRegisterStep1 extends Component {
         
     render() {
         return (
-<div data-aos="fade-up" data-aos-delay="200">
+<div data-aos="fade-up" data-aos-delay="200" className='register-page'>
         <br /><br />
         <div className='' >
                 <div className='jumbotron col-lg-4 offset-lg-4 form-box'>
@@ -14,6 +14,7 @@ export class PatientRegisterStep1 extends Component {
                         
                         <form dir='rtl'>
                                 <div className="form-group">
+                                        
                                         <label htmlFor="fullName">الاسم الكامل</label>
                                         <input type="text" className="form-control" placeholder="أدخل الاسم الكامل" name='fullName' required />
                                 </div>
@@ -43,7 +44,7 @@ export class PatientRegisterStep1 extends Component {
                                         <input type="password" className="form-control" name='passwordConfirmation' placeholder="أعد إدخال كلمة المرور" required />
                                 </div>
                                 
-                                <button>  <Link to='' className='links-buttons'  >تسجيل</Link> </button>
+                                <button className='btn btn-primary'>  <Link to='' className='links-buttons'  >تسجيل</Link> </button>
                                 <br />
                                 لديك حساب؟ <Link to='/login/patient' className='links-buttons'>تسجيل الدخول</Link>
                         </form>

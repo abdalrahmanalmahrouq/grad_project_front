@@ -17,10 +17,12 @@ import './assets/css/custom.css'
 
 
 class App extends Component {
+
+   
   render(){
   return (
     <div >
-     <BrowserRouter>    
+     <BrowserRouter >    
     
             <AppRouter/>
 

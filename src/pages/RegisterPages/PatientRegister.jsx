@@ -12,7 +12,7 @@ export class PatientRegisterPage1 extends Component {
         
         <TopNav />
         <PatientRegsiterStep1/>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     )
   }

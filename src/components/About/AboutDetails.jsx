@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from '../../assets/img/mid1.png'
 
 export class AboutDetails extends Component {
+
+
   render() {
     return (
       <div className="container about-details">
@@ -32,7 +34,7 @@ export class AboutDetails extends Component {
 
 
          <div className="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-          <img src="https://i.pinimg.com/736x/ff/ce/b1/ffceb1b73a0cc4009d58f435c0f28e37.jpg" className="img-fluid" alt=""/>
+          <img src="https://i.pinimg.com/736x/47/28/90/472890bec732b33b4f876371a5d11fca.jpg" className="img-fluid" alt=""/>
          
           </div>
          

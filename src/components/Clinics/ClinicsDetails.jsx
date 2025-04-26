@@ -14,6 +14,9 @@ import chest_img from '../../assets/img/clinics/chest.jpg'
 import digestive_img from '../../assets/img/clinics/digestive.jpg'
 
 class ClinicsDetails extends Component {
+
+
+
     render() {
 
         const clinics = [
