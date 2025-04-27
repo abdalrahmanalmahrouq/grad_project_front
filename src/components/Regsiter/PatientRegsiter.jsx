@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from 'react'
-import { Container, Form, NavLink } from 'react-bootstrap'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 export class PatientRegisterStep1 extends Component {
