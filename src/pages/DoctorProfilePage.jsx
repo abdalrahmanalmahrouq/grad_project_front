@@ -9,7 +9,7 @@ export class DoctorProfilePage extends Component {
       <div>
         <TopNav/>
         <DoctorProfile/>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     )
   }

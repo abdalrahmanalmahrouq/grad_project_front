@@ -335,4 +335,17 @@ img {
 
 .doctor-profile{
   padding-top: 90pt;
+  padding-bottom: 120pt;
+}
+.doctor-title{
+  font-family: 'Tajawal';
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--heading-color);
+}
+.doctor-description{
+  font-family: 'Tajawal';
+  font-weight: 400;
+  color: var(--default-color);
+  font-size: 17px;
 }
