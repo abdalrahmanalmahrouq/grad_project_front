@@ -12,6 +12,7 @@ import neuron_img from '../../assets/img/clinics/neuron.jpg'
 import interior_img from '../../assets/img/clinics/interiorjpg.jpg'
 import chest_img from '../../assets/img/clinics/chest.jpg'
 import digestive_img from '../../assets/img/clinics/digestive.jpg'
+import { Link } from 'react-router-dom'
 
 class ClinicsDetails extends Component {
 
@@ -23,62 +24,74 @@ class ClinicsDetails extends Component {
             {
               title: "عيادة الأسنان",
               description: "نقدم خدمات شاملة للعناية بالأسنان باستخدام أحدث التقنيات.",
-              image: teeth_img
+              image: teeth_img,
+               directory: 'teeth'
             },
             {
               title: "عيادة العيون",
               description: "فحص شامل للعيون وعلاج مشاكل الرؤية بأحدث الأجهزة.",
-              image: eyes_img
+              image: eyes_img,
+               directory: 'eyes'
             },
             {
               title: "عيادة الأطفال",
               description: "رعاية طبية متكاملة للأطفال من جميع الأعمار.",
-              image: kid_img
+              image: kid_img,
+              directory: 'kids'
             },
             {
               title: "عيادة الجلدية",
               description: "علاج مشاكل البشرة والشعر بأحدث التقنيات.",
-              image: skin_img
+              image: skin_img,
+               directory: 'skin'
             },
             {
               title: "عيادة القلب",
               description: "تشخيص وعلاج أمراض القلب بأيدي أطباء متخصصين.",
-              image: heart_img
+              image: heart_img,
+               directory: 'heart'
             },
             {
               title: "عيادة النساء",
               description: "خدمات طبية شاملة للنساء في جميع المراحل العمرية.",
-              image: women_img
+              image: women_img,
+               directory: 'women'
             },
             {
               title: "عيادة الأنف والأذن والحنجرة",
               description: "تشخيص وعلاج أمراض الأنف والأذن والحنجرة.",
-              image: ears_img
+              image: ears_img,
+               directory: 'ear'
             },
             {
               title: "عيادة العظام",
               description: "علاج مشاكل العظام والمفاصل بأحدث الطرق الطبية.",
-              image: bone_img
+              image: bone_img,
+               directory: 'orthopedic'
             },
             {
               title: "عيادة الأعصاب",
               description: "رعاية متخصصة لعلاج أمراض الجهاز العصبي.",
-              image: neuron_img
+              image: neuron_img,
+               directory: 'neurology'
             },
             {
               title: "عيادة الجهاز الهضمي",
               description: "تشخيص وعلاج أمراض الجهاز الهضمي والكبد.",
-              image: digestive_img
+              image: digestive_img,
+               directory: 'digestive'
             },
             {
-              title: "عيادة الصدر",
+              title: "عيادة الجهاز التنفسي",
               description: "علاج أمراض الجهاز التنفسي والرئة.",
-              image: chest_img
+              image: chest_img,
+               directory: 'chest'
             },
             {
               title: "عيادة الباطنية",
               description: "تقديم خدمات طبية شاملة للأمراض الباطنية.",
-              image: interior_img
+              image: interior_img,
+               directory: 'interior'
             },
           ];
 
@@ -100,7 +113,7 @@ class ClinicsDetails extends Component {
                         <Card.Body>
                         <Card.Title>{clinic.title}</Card.Title>
                         <Card.Text>{clinic.description}</Card.Text>
-                        <Button variant="primary">المزيد من التفاصيل</Button>
+                      <Link to={'/clinics/'+clinic.directory}>  <Button variant="primary">المزيد من التفاصيل</Button></Link>
                         </Card.Body>
                     </Card>
                     </Col>

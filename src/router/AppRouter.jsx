@@ -4,10 +4,15 @@ import HomePage from '../pages/HomePage'
 import AboutPage from '../pages/AboutPage'
 import ContactPage from '../pages/ContactPage'
 import ClinicsPage from '../pages/ClinicsPage'
-import PatientRegister from '../pages/RegisterPages/PatientRegister'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+import PatientRegisterPage from '../pages/RegisterPages/PatientRegisterPage'
+import PatientLoginPage from '../pages/LoginPages/PatientLoginPage'
+
+import AllClinicsPage from '../pages/AllClinicsPage'
+import DoctorProfilePage from '../pages/DoctorProfilePage'
 
 class AppRouter extends Component {
   
@@ -29,9 +34,14 @@ class AppRouter extends Component {
           <Route path='/contact' element={<ContactPage/>}/>
           <Route path='/clinics' element={ <ClinicsPage/>}/>
 
-          <Route path='/register/patient' element={ <PatientRegister/>}/>
-        
+          {/* Routes For Login And Register */}
+          <Route path='/login/patient' element={ <PatientLoginPage/>}/>
+          <Route path='/register/patient' element={ <PatientRegisterPage/>}/>
           
+
+          <Route path='/clinics/:directory'  element={ <AllClinicsPage/>}/>
+
+          <Route path='/doctor/profile/:id'  element={ <DoctorProfilePage/>}/>
       </Routes>
   </Fragment>
     )

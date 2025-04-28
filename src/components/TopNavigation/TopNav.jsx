@@ -54,7 +54,7 @@ class TopNav extends Component {
                 <li><NavLink to="/contact">اتصل بنا</NavLink></li>
                 <li class="dropdown" dir='rtl'  > <NavLink ><span>تسجيل الدخول </span> <i class="bi bi-chevron-down toggle-dropdown "></i></NavLink>
                   <ul class="dropdown-active" >
-                    <li> <NavLink  to="/register/patient">مريض</NavLink></li>
+                    <li> <NavLink  to="/login/patient">مريض</NavLink></li>
                     <li> <NavLink  to="/register/patient/page1">عيادة</NavLink></li>
                     <li> <NavLink  to="/register/patient/page1">طبيب</NavLink></li>
                     <li> <NavLink  to="/register/patient/page1">مختبر</NavLink></li>

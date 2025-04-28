@@ -5,7 +5,7 @@ export class PatientRegisterStep1 extends Component {
         
     render() {
         return (
-<div data-aos="fade-up" data-aos-delay="200" className='register-page'>
+<div data-aos="fade-up" data-aos-delay="200" className='auth-background'>
         <br /><br />
         <div className='' >
                 <div className='jumbotron col-lg-4 offset-lg-4 form-box'>

@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import PatientRegsiterStep1 from '../../components/Regsiter/PatientRegsiter'
+import PatientRegsiter from '../../components/Regsiter/PatientRegsiter'
 import TopNav from '../../components/TopNavigation/TopNav'
-import Footer from '../../components/Footer/Footer'
-export class PatientRegisterPage1 extends Component {
+
+
+export class PatientRegisterPage extends Component {
   componentDidMount(){
     window.scrollTo(0,0);
 }
@@ -11,11 +12,11 @@ export class PatientRegisterPage1 extends Component {
       <div>
         
         <TopNav />
-        <PatientRegsiterStep1/>
+        <PatientRegsiter/>
         {/* <Footer/> */}
       </div>
     )
   }
 }
 
-export default PatientRegisterPage1
+export default PatientRegisterPage
