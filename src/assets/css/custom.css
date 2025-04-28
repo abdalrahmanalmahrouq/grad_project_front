@@ -11,7 +11,7 @@
 
 .top-page-banner{
    
-    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    background: linear-gradient(to right, #2c3e50, #3a769e);
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -34,7 +34,7 @@
   .top-page-title{
     text-align: center;
     font-size:50px;
-    color: var(--accent-color);
+    color: var(--surface-color);
     font-style: 'Montserrat', sans-serif;
     font-weight: 700;
   
@@ -154,7 +154,7 @@ button.btn-primary {
   min-height: 100vh; /* Make it full height of screen */
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #2c3e50, #3498db); /* your gradient */
+  background: linear-gradient(to right, #2c3e50, #3a769e); /* your gradient */
   padding:50px ;
 }
 
@@ -349,3 +349,162 @@ img {
   color: var(--default-color);
   font-size: 17px;
 }
+
+
+
+/* css for the schedule */
+.schedule-header {
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 4px 4px 0 0;
+  padding: 50px 20px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .col-md-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.day-slot ul {
+  float: left;
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.day-slot li.left-arrow {
+  left: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 20px !important;
+  transform: translateY(-50%);
+}
+.day-slot li.right-arrow {
+  right: -11px;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 20px !important;
+  transform: translateY(-50%);
+}
+.day-slot li span.slot-date {
+  display: block;
+  color: #757575;
+  font-size: 14px;
+}
+.day-slot li {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  width: 14.28%;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+.day-slot ul {
+  float: left;
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.day-slot li small.slot-year {
+  color: #757575;
+  font-size: 14px;
+}
+.schedule-cont {
+  padding: 20px;
+}
+.time-slot ul {
+  list-style: none;
+  margin-right: -5px;
+  margin-left: -5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.time-slot li {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 14.28%;
+}
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.time-slot li .timing {
+  background-color: #e9e9e9;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  color: #757575;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+  text-align: center;
+  position: relative;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+ ::after, ::before {
+  box-sizing: border-box;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.submit-section.proceed-btn {
+  margin: 0 0 30px;
+}
+
+.text-right {
+  text-align: right !important;
+}
+.book-appointment-box{
+  padding-top: 10px;
+
+}
+
+/* end of css for the schedule */

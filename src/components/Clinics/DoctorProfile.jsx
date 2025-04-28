@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import { Button, Card, Container, Nav, Row } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { clinicsData } from '../../data/clinicsData'; // Assuming clinicsData is imported
 
 // Flatten all doctors into one array:
@@ -39,7 +39,7 @@ function DoctorProfile() {
                             <div>
                                 <Card.Title className='doctor-title'>{doctor.name}</Card.Title>
                                 <Card.Text>{doctor.clinic}</Card.Text>
-                                <Button variant="primary">حجز موعد</Button>
+                                <Link to={"/doctor/appointment/schedule/"+doctor.id}> <Button variant="primary">حجز موعد</Button></Link>
                             </div>
                         </Card.Body>
                     </Card>

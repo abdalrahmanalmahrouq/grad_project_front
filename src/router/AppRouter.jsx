@@ -13,6 +13,7 @@ import PatientLoginPage from '../pages/LoginPages/PatientLoginPage'
 
 import AllClinicsPage from '../pages/AllClinicsPage'
 import DoctorProfilePage from '../pages/DoctorProfilePage'
+import AppointmentsSchedulePage from '../pages/AppointmentsSchedulePage'
 
 class AppRouter extends Component {
   
@@ -42,6 +43,8 @@ class AppRouter extends Component {
           <Route path='/clinics/:directory'  element={ <AllClinicsPage/>}/>
 
           <Route path='/doctor/profile/:id'  element={ <DoctorProfilePage/>}/>
+
+          <Route path='/doctor/appointment/schedule/:id'  element={ <AppointmentsSchedulePage/>}/>
       </Routes>
   </Fragment>
     )

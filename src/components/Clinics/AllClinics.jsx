@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 
 import TopPageDetails from '../TopPageDetails/TopPageDetails';
@@ -27,7 +27,7 @@ function AllClinics() {
                                     <Card.Text>
                                         {doctor.clinic}
                                     </Card.Text>
-                                    <Button variant="primary" href={"/doctor/profile/"+doctor.id}>المزيد</Button>
+                                 <Link to={"/doctor/profile/"+doctor.id}>   <Button variant="primary" >المزيد</Button></Link>
                                 </Card.Body>
                             </Card>
                         </Col>
