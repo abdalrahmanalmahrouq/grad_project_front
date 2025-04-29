@@ -129,9 +129,9 @@
   outline: none;
 }
 .form-box{
-  background-color: #478bc7cf;
+  background-color: #5499d1b0;
   border-radius: 15px;
-  margin-top: 50pt;
+  margin: 50px auto;
   font-family: 'Tajawal', Courier, monospace;
   font-weight: 700;
   padding-left: 20pt;
@@ -159,10 +159,34 @@ button.btn-primary {
 }
 
 
-@media (max-width:500px){
-  .form-box{
-    margin-left: 10;
-    margin-right: 10;
+
+/* Large laptops/desktops (between 1000px and 1199px) */
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .form-box {
+    width: 55%;
+  }
+}
+
+/* Tablets (between 768px and 999px) */
+@media (min-width: 768px) and (max-width: 999px) {
+  .form-box {
+    width: 70%;
+  }
+}
+
+/* Mobile landscape (between 500px and 767px) */
+@media (min-width: 500px) and (max-width: 767px) {
+  .form-box {
+    width: 90%;
+  }
+}
+
+/* Mobile portrait (less than 500px) */
+@media (max-width: 499px) {
+  .form-box {
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 }
 
@@ -176,6 +200,12 @@ button.btn-primary {
   font-weight: 900;
   color: var(--default-color);
 }
+.links-buttons:hover{
+  font-family: 'Tajawal', Courier, monospace;
+  font-weight: 900;
+  color: var(--default-color);
+}
+
 
 p ,h3, input ,textarea{
 direction: rtl;
@@ -508,3 +538,5 @@ ul {
 }
 
 /* end of css for the schedule */
+
+

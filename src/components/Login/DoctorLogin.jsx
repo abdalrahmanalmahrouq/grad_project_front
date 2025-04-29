@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-export class PatientLogin extends Component {
+export class DoctorLogin extends Component {
   render() {
     return (
         <div data-aos="fade-up" data-aos-delay="200" className='auth-background'>
         <br /><br />
         <div className='' >
                 <div className='jumbotron col-lg-4 offset-lg-4 form-box'>
-                        <h3 className='text-center form-title'>تسجيل المريض</h3>
+                        <h3 className='text-center form-title'>تسجيل الطبيب</h3>
                         
                         <form dir='rtl' >
                               
@@ -30,7 +30,7 @@ export class PatientLogin extends Component {
                                 <button className='btn btn-primary'>  <Link to='' className='links-buttons'  >تسجيل</Link> </button>
                                 <br />
                                  <div> نسيت كلمة المرور؟ <Link to='/forget/password' className='links-buttons'>نسيت</Link></div>  
-                                <div className='pb-3'>  مستخدم جديد؟ <Link to='/register/patient' className='links-buttons'>انشاء حساب</Link></div>
+                                <div className='pb-3'>  مستخدم جديد؟ <Link to='/register/doctor' className='links-buttons'>انشاء حساب</Link></div>
                         </form>
                 </div>
         </div>
@@ -39,4 +39,4 @@ export class PatientLogin extends Component {
   }
 }
 
-export default PatientLogin
+export default DoctorLogin

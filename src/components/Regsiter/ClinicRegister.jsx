@@ -1,21 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-export class PatientRegisterStep1 extends Component {
-        
-    render() {
-        return (
-<div data-aos="fade-up" data-aos-delay="200" className='auth-background'>
+export class ClinicRegister extends Component {
+  render() {
+    return (
+        <div data-aos="fade-up" data-aos-delay="200" className='auth-background'>
         <br /><br />
         <div className='' >
                 <div className='jumbotron col-lg-4 offset-lg-4 form-box'>
-                        <h3 className='text-center form-title'>انشاء حساب المريض</h3>
+                        <h3 className='text-center form-title'>انشاء حساب عيادة</h3>
                         
                         <form dir='rtl'>
                                 <div className="form-group">
                                         
-                                        <label htmlFor="fullName">الاسم الكامل</label>
-                                        <input type="text" className="form-control" placeholder="أدخل الاسم الكامل" name='fullName' required />
+                                        <label htmlFor="fullName">اسم العيادة</label>
+                                        <input type="text" className="form-control" placeholder="أدخل اسم العيادة" name='fullName' required />
                                 </div>
                                 <div className="form-group">
                                         <label htmlFor="email">البريد الإلكتروني</label>
@@ -26,10 +25,7 @@ export class PatientRegisterStep1 extends Component {
                                         <label htmlFor="mobileNumber">رقم الهاتف</label>
                                         <input type="text" className="form-control" placeholder="أدخل رقم الهاتف" name='mobileNumber' required />
                                 </div>
-                                <div className="form-group">
-                                        <label htmlFor="birthDate">تاريخ الميلاد</label>
-                                        <input type="date" className="form-control" name='birthDate' required />
-                                </div>
+                                
                                 <div className="form-group">
                                         <label htmlFor="address">العنوان</label>
                                         <input type="text" className="form-control" placeholder="أدخل العنوان" name='address' required />
@@ -45,13 +41,13 @@ export class PatientRegisterStep1 extends Component {
                                 
                                 <button className='btn btn-primary'>  <Link to='' className='links-buttons'  >تسجيل</Link> </button>
                                 <br />
-                             <div className='pb-3'>   لديك حساب؟ <Link to='/login/patient' className='links-buttons'>تسجيل الدخول</Link></div>
+                             <div className='pb-3'>   لديك حساب؟ <Link to='/login/clinic' className='links-buttons'>تسجيل الدخول</Link></div>
                         </form>
                 </div>
         </div>
 </div>
-        )
-    }
+    )
+  }
 }
 
-export default PatientRegisterStep1
+export default ClinicRegister

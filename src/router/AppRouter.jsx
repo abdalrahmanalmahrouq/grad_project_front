@@ -14,6 +14,12 @@ import PatientLoginPage from '../pages/LoginPages/PatientLoginPage'
 import AllClinicsPage from '../pages/AllClinicsPage'
 import DoctorProfilePage from '../pages/DoctorProfilePage'
 import AppointmentsSchedulePage from '../pages/AppointmentsSchedulePage'
+import ClinicRegisterPage from '../pages/RegisterPages/ClinicRegisterPage'
+import ClinicLoginPage from '../pages/LoginPages/ClinicLoginPage'
+import DoctorLoginPage from '../pages/LoginPages/DoctorLoginPage'
+import DoctorRegisterPage from '../pages/RegisterPages/DoctorRegisterPage'
+import LabLoginPage from '../pages/LoginPages/LabLoginPage'
+import LabRegisterPage from '../pages/RegisterPages/LabRegisterPage'
 
 class AppRouter extends Component {
   
@@ -36,9 +42,26 @@ class AppRouter extends Component {
           <Route path='/clinics' element={ <ClinicsPage/>}/>
 
           {/* Routes For Login And Register */}
+          {/* for patient */}
           <Route path='/login/patient' element={ <PatientLoginPage/>}/>
           <Route path='/register/patient' element={ <PatientRegisterPage/>}/>
-          
+          {/* end patient */}
+
+          {/* for clinic */}
+          <Route path='/login/clinic' element={ <ClinicLoginPage/>}/>
+          <Route path='/register/clinic' element={ <ClinicRegisterPage/>}/>
+          {/* end clinic */}
+
+           {/* for doctor */}
+           <Route path='/login/doctor' element={ <DoctorLoginPage/>}/>
+          <Route path='/register/doctor' element={ <DoctorRegisterPage/>}/>
+          {/* end doctor */}
+
+           {/* for lab */}
+           <Route path='/login/lab' element={ <LabLoginPage/>}/>
+            <Route path='/register/lab' element={ <LabRegisterPage/>}/>
+          {/* end lab */}
+          {/* End For Login And Register */}
 
           <Route path='/clinics/:directory'  element={ <AllClinicsPage/>}/>
 
