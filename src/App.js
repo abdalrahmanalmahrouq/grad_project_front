@@ -1,5 +1,5 @@
 import React  ,{ Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import AppRouter from './router/AppRouter';
 
 // Vendor CSS
@@ -23,12 +23,12 @@ class App extends Component {
   return (
     <div >
       
-     <BrowserRouter >    
+    <HashRouter>
     
             <AppRouter/>
 
 
-     </BrowserRouter>
+            </HashRouter>
     </div>
   );
 }

@@ -11,7 +11,7 @@
 
 .top-page-banner{
    
-    background: linear-gradient(to right, #2c3e50, #3a769e);
+    background: linear-gradient(to right,  #3a769e,#032637);
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -62,7 +62,7 @@
   }
 
   .card-img-clinics{
-    width: 286px;
+    /* width: 286px; */
     height: 200px;
   }
 

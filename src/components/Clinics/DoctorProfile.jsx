@@ -11,13 +11,14 @@ function DoctorProfile() {
     const doctorId = parseInt(id, 10); // Convert id from string to number
     const doctor = allDoctors.find(d => d.id === doctorId);
 
+       // Always call useState at the top level of your component
+       const [activeTab, setActiveTab] = useState("overview"); // Default to "overview"
+
     if (!doctor) {
         return <div>Doctor not found</div>;
     }
 
-    // Always call useState at the top level of your component
-    const [activeTab, setActiveTab] = useState("overview"); // Default to "overview"
-
+ 
     // Handle tab change logic
     const handleTabSelect = (selectedKey) => {
         setActiveTab(selectedKey); // This updates the active tab
