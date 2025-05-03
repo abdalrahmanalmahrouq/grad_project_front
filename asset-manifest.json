@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/grad_project_front/static/css/main.30ac423e.css",
+    "main.css": "/grad_project_front/static/css/main.fb99b9f9.css",
     "main.js": "/grad_project_front/static/js/main.345b5cea.js",
     "static/js/453.c5ba2f6e.chunk.js": "/grad_project_front/static/js/453.c5ba2f6e.chunk.js",
     "static/media/Adobe Express - file (1) (1).png": "/grad_project_front/static/media/Adobe Express - file (1) (1).6bd328de7d95cffb2ddf.png",
@@ -56,12 +56,12 @@
     "static/media/fa-v4compatibility.ttf": "/grad_project_front/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/grad_project_front/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/grad_project_front/index.html",
-    "main.30ac423e.css.map": "/grad_project_front/static/css/main.30ac423e.css.map",
+    "main.fb99b9f9.css.map": "/grad_project_front/static/css/main.fb99b9f9.css.map",
     "main.345b5cea.js.map": "/grad_project_front/static/js/main.345b5cea.js.map",
     "453.c5ba2f6e.chunk.js.map": "/grad_project_front/static/js/453.c5ba2f6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30ac423e.css",
+    "static/css/main.fb99b9f9.css",
     "static/js/main.345b5cea.js"
   ]
 }
