@@ -30,7 +30,7 @@ export class ClinicLogin extends Component {
                                 <button className='btn btn-primary'>  <Link to='' className='links-buttons'  >تسجيل</Link> </button>
                                 <br />
                                  <div> نسيت كلمة المرور؟ <Link to='/forget/password' className='links-buttons'>نسيت</Link></div>  
-                                <div className='pb-3'>  مستخدم جديد؟ <Link to='/register/clinic' className='links-buttons'>انشاء حساب</Link></div>
+                                <div className='pb-3'>  مستخدم جديد؟ <Link to='/register/clinic' className='links-buttons'>إنشاء حساب</Link></div>
                         </form>
                 </div>
         </div>

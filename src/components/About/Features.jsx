@@ -103,7 +103,7 @@ class Features extends Component {
                      
                     </h4>
                     <p>
-                   <Link to={'/register/patient'}> <Button className='btn btn'>سجل الان ! </Button></Link>
+                   <Link to={'/register/patient'}> <Button className='btn btn'>سجل الان  </Button></Link>
                     </p>
                    
                   </div>

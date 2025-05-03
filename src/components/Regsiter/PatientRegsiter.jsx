@@ -9,7 +9,7 @@ export class PatientRegisterStep1 extends Component {
         <br /><br />
         <div className='' >
                 <div className='jumbotron col-lg-4 offset-lg-4 form-box'>
-                        <h3 className='text-center form-title'>انشاء حساب المريض</h3>
+                        <h3 className='text-center form-title'>إنشاء حساب المريض</h3>
                         
                         <form dir='rtl'>
                                 <div className="form-group">

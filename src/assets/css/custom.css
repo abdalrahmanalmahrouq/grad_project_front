@@ -198,12 +198,15 @@ button.btn-primary {
 .links-buttons{
   font-family: 'Tajawal', Courier, monospace;
   font-weight: 900;
-  color: var(--default-color);
+  color: var(--heading-color);
 }
 .links-buttons:hover{
+  font-style: underline;
+  color: white;
   font-family: 'Tajawal', Courier, monospace;
   font-weight: 900;
-  color: var(--default-color);
+  transition: all ease 200ms;
+  text-decoration: underline;
 }
 
 

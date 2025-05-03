@@ -8,7 +8,7 @@ export class LabRegister extends Component {
         <br /><br />
         <div className='' >
                 <div className='jumbotron col-lg-4 offset-lg-4 form-box'>
-                        <h3 className='text-center form-title'>انشاء حساب المختبر</h3>
+                        <h3 className='text-center form-title'>إنشاء حساب المختبر</h3>
                         
                         <form dir='rtl'>
                                 <div className="form-group">
