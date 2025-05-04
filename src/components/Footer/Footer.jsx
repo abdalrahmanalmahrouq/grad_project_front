@@ -9,7 +9,7 @@ class Footer extends Component {
                         <div className="row gy-4">
                     
                           <div className="col-lg-4 col-md-6 footer-about">
-                            <a href="index.html" className="logo d-flex align-items-center">
+                            <a href="#" className="logo d-flex align-items-center">
                               <span className="sitename">ميديسينا</span>
                             </a>
                             <div className="footer-contact pt-3">
@@ -44,38 +44,42 @@ class Footer extends Component {
                                 <a href="#">الرئيسية</a>
                               </li>
                               <li>
-                                <a href="#">من نحن</a>
+                                <a href="#about">من نحن</a>
                               </li>
                               <li>
-                                <a href="#">الخدمات</a>
+                                <a href="#clinics">العيادات</a>
                               </li>
                               <li>
+                                <a href="#contact">اتصل بنا</a>
+                              </li>
+                              {/* <li>
                                 <a href="#">شروط الخدمة</a>
-                              </li>
-                              <li>
+                              </li> */}
+                              {/* <li>
                                 <a href="#">سياسة الخصوصية</a>
-                              </li>
+                              </li> */}
                             </ul>
                           </div>
 
                           <div className="col-lg-2 col-md-3 footer-links">
                             <h4>خدماتنا</h4>
                             <ul>
-                              <li>
-                                <a href="#">تصميم المواقع</a>
+                            <li>
+                               رفع التقارير الطبية
                               </li>
                               <li>
-                                <a href="#">تطوير المواقع</a>
+                                تواصل مع الأطباء
                               </li>
                               <li>
-                                <a href="#">إدارة المنتجات</a>
+                               خدمات التشخيص  
                               </li>
                               <li>
-                                <a href="#">التسويق</a>
+                                حجز مواعيد
                               </li>
                               <li>
-                                <a href="#">تصميم الجرافيك</a>
+                                إدارة المواعيد
                               </li>
+                              
                             </ul>
                           </div>
 
@@ -83,19 +87,19 @@ class Footer extends Component {
                             <h4>عياداتنا</h4>
                             <ul>
                               <li>
-                                <a href="#">عيادة الأسنان</a>
+                                <a href="#clinics/teeth">عيادة الأسنان</a>
                               </li>
                               <li>
-                                <a href="#">عيادة الأطفال</a>
+                                <a href="#clinics/kids">عيادة الأطفال</a>
                               </li>
                               <li>
-                                <a href="#">عيادة الجلدية</a>
+                                <a href="#clinics/skin">عيادة الجلدية</a>
                               </li>
                               <li>
-                                <a href="#">عيادة العيون</a>
+                                <a href="#clinics/eyes">عيادة العيون</a>
                               </li>
                               <li>
-                                <a href="#">عيادة القلب</a>
+                                <a href="#clinics/heart">عيادة القلب</a>
                               </li>
                             </ul>
                           </div>
@@ -104,19 +108,19 @@ class Footer extends Component {
                             <h4>تواصل معنا</h4>
                             <ul>
                               <li>
-                                <a href="#">الدعم الفني</a>
+                                <a href="#contact">الدعم الفني</a>
                               </li>
                               <li>
-                                <a href="#">الأسئلة الشائعة</a>
+                                <a href="#contact">الأسئلة الشائعة</a>
                               </li>
-                              <li>
+                              {/* <li>
                                 <a href="#">الشكاوى</a>
+                              </li> */}
+                              <li>
+                                <a href="#contact">الاقتراحات</a>
                               </li>
                               <li>
-                                <a href="#">الاقتراحات</a>
-                              </li>
-                              <li>
-                                <a href="#">اتصل بنا</a>
+                                <a href="#contact">اتصل بنا</a>
                               </li>
                             </ul>
                           </div>

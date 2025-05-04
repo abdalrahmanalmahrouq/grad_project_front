@@ -35,7 +35,7 @@ class Features extends Component {
                   <i className="fa-solid fa-calendar-check flex-shrink-0"></i>
                   <div className='features-info'>
                     <h4>
-                      <a href="" className="stretched-link">تنظيم المواعيد</a>
+                      <a href="#clinics" className="stretched-link">تنظيم المواعيد</a>
                     </h4>
                     <p>
                       يمكنك حجز المواعيد بسهولة مع العيادات المناسبة لك عبر موقعنا.
@@ -51,7 +51,7 @@ class Features extends Component {
                   <i className="fa-solid fa-comments flex-shrink-0"></i>
                   <div className='features-info'>
                     <h4>
-                      <a href="" className="stretched-link">التواصل المباشر</a>
+                      <a href="#contact" className="stretched-link">التواصل المباشر</a>
                     </h4>
                     <p>
                       نوفر وسيلة تواصل مباشرة بين المرضى والأطباء لتسهيل الاستفسارات.
@@ -67,7 +67,7 @@ class Features extends Component {
                   <i className="fa-solid fa-user-md flex-shrink-0"></i>
                   <div className='features-info'>
                     <h4>
-                      <a href="" className="stretched-link">اختيار الطبيب المناسب</a>
+                      <a href="#clinics" className="stretched-link">اختيار الطبيب المناسب</a>
                     </h4>
                     <p>
                       يمكنك البحث عن الأطباء المتخصصين واختيار الأنسب لحالتك الصحية.
@@ -83,7 +83,7 @@ class Features extends Component {
                   <i className="fa-solid fa-clinic-medical flex-shrink-0"></i>
                   <div className='features-info'>
                     <h4>
-                      <a href="" className="stretched-link">إدارة العيادات</a>
+                      <a href="#login/clinic" className="stretched-link">إدارة العيادات</a>
                     </h4>
                     <p>
                       نوفر للعيادات أدوات لإدارة المواعيد والمرضى بسهولة وفعالية.

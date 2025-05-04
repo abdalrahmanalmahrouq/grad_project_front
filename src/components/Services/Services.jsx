@@ -17,9 +17,9 @@ class Services extends Component {
                   <div className="icon">
                     <i className="fas fa-heartbeat"></i>
                   </div>
-                  <a href="#" className="stretched-link">
+                  
                     <h3>تنظيم المواعيد</h3>
-                  </a>
+                  
                   <p>نساعدك على تنظيم مواعيدك مع العيادات بسهولة وفعالية.</p>
                 </div>
               </div>
@@ -29,9 +29,9 @@ class Services extends Component {
                   <div className="icon">
                     <i className="fas fa-pills"></i>
                   </div>
-                  <a href="#" className="stretched-link">
+                  
                     <h3>الوصفات الطبية</h3>
-                  </a>
+                  
                   <p>إمكانية الوصول إلى الوصفات الطبية الخاصة بك بسهولة عبر الموقع.</p>
                 </div>
               </div>
@@ -41,9 +41,9 @@ class Services extends Component {
                   <div className="icon">
                     <i className="fas fa-hospital-user"></i>
                   </div>
-                  <a href="#" className="stretched-link">
+                  
                     <h3>التواصل مع العيادات</h3>
-                  </a>
+                  
                   <p>تواصل مباشر مع العيادات لتلبية احتياجاتك الطبية.</p>
                 </div>
               </div>
@@ -53,9 +53,9 @@ class Services extends Component {
                   <div className="icon">
                     <i className="fas fa-dna"></i>
                   </div>
-                  <a href="#" className="stretched-link">
+                  
                     <h3>التحاليل الطبية</h3>
-                  </a>
+                  
                   <p>إمكانية الاطلاع على نتائج التحاليل الطبية الخاصة بك بسهولة.</p>
                 </div>
               </div>
@@ -65,9 +65,9 @@ class Services extends Component {
                   <div className="icon">
                     <i className="fas fa-wheelchair"></i>
                   </div>
-                  <a href="#" className="stretched-link">
+                  
                     <h3>خدمات خاصة</h3>
-                  </a>
+                  
                   <p>نوفر خدمات خاصة للمرضى ذوي الاحتياجات الخاصة لتسهيل تجربتهم.</p>
                 </div>
               </div>
@@ -77,9 +77,9 @@ class Services extends Component {
                   <div className="icon">
                     <i className="fas fa-notes-medical"></i>
                   </div>
-                  <a href="#" className="stretched-link">
+                  
                     <h3>السجلات الطبية</h3>
-                  </a>
+                  
                   <p>إدارة سجلاتك الطبية ومشاركتها مع العيادات بسهولة وأمان.</p>
                 </div>
               </div>

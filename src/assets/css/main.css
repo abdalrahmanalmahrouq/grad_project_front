@@ -588,6 +588,7 @@ h6 {
 
 .footer .footer-links {
   margin-bottom: 30px;
+  color: var(--default-color);
 }
 
 .footer .footer-links ul {
@@ -606,6 +607,8 @@ h6 {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
 .footer .footer-links ul li:first-child {
