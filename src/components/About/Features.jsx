@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import feature_img from '../../assets/img/featuresimage.jpg';
 class Features extends Component {
   render() {
     return (
@@ -14,7 +14,7 @@ class Features extends Component {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <img src="https://img.freepik.com/free-photo/hands-unrecognizable-female-doctor-writing-form-typing-laptop-keyboard_1098-20374.jpg?t=st=1745157377~exp=1745160977~hmac=b982e93510aa515eb225257af67e039f00984eebe7f15da3e16cb3a0bc12c826&w=1380"alt=""/>
+                <img src={feature_img} alt=""/>
               </div>
 
               <div
