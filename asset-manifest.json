@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grad_project_front/static/css/main.d0b87473.css",
-    "main.js": "/grad_project_front/static/js/main.d3e78199.js",
+    "main.css": "/grad_project_front/static/css/main.a96ca3b4.css",
+    "main.js": "/grad_project_front/static/js/main.eacdbb9d.js",
     "static/js/453.c5ba2f6e.chunk.js": "/grad_project_front/static/js/453.c5ba2f6e.chunk.js",
     "static/media/Adobe Express - file (1) (1).png": "/grad_project_front/static/media/Adobe Express - file (1) (1).6bd328de7d95cffb2ddf.png",
     "static/media/Adobe Express - file (2).jpg": "/grad_project_front/static/media/Adobe Express - file (2).0ab56f7199f3633b2c6e.jpg",
@@ -26,7 +26,9 @@
     "static/media/doctor-18.jpg": "/grad_project_front/static/media/doctor-18.a7f3e418d49f971dddf6.jpg",
     "static/media/kids.jpg": "/grad_project_front/static/media/kids.ad744e9b4f028fdb1f38.jpg",
     "static/media/doctor-8.jpg": "/grad_project_front/static/media/doctor-8.5abc74581696f9c2ff49.jpg",
+    "static/media/featuresimage.jpg": "/grad_project_front/static/media/featuresimage.aacf4e9c4d2f0f1370e2.jpg",
     "static/media/skinjpg.jpg": "/grad_project_front/static/media/skinjpg.3864abbd82c5e4178c51.jpg",
+    "static/media/aboutimgfeature.jpg": "/grad_project_front/static/media/aboutimgfeature.cd6151cdd6ea42c408d2.jpg",
     "static/media/doctor-14.jpg": "/grad_project_front/static/media/doctor-14.0aee984fba56b2f89d5c.jpg",
     "static/media/doctor-6.jpg": "/grad_project_front/static/media/doctor-6.152e799b3b9a7a719b15.jpg",
     "static/media/doctor-23.jpg": "/grad_project_front/static/media/doctor-23.99100bda83b1e4326e5c.jpg",
@@ -35,6 +37,7 @@
     "static/media/doctor-10.jpg": "/grad_project_front/static/media/doctor-10.ea14f354fbd963cc9522.jpg",
     "static/media/doctor-12.jpg": "/grad_project_front/static/media/doctor-12.1a94a609e4df6768b6e5.jpg",
     "static/media/doctor-5.jpg": "/grad_project_front/static/media/doctor-5.40d27775202b31e4a0dd.jpg",
+    "static/media/meetourteam.jpg": "/grad_project_front/static/media/meetourteam.2a1b9fab608125b536c4.jpg",
     "static/media/women.jpg": "/grad_project_front/static/media/women.252c3c11ac9c1886007d.jpg",
     "static/media/heart.jpg": "/grad_project_front/static/media/heart.4f427566a018297ec040.jpg",
     "static/media/chest.jpg": "/grad_project_front/static/media/chest.f65c40de1086952edfca.jpg",
@@ -51,17 +54,18 @@
     "static/media/mid1.png": "/grad_project_front/static/media/mid1.3f3e3a0f3c28df8c59cf.png",
     "static/media/teeth.jpg": "/grad_project_front/static/media/teeth.e0eb670e6f7f9b7d2b60.jpg",
     "static/media/doctor-25.jpg": "/grad_project_front/static/media/doctor-25.85bffc8effc4c60e90f1.jpg",
+    "static/media/aboutimglogo.png": "/grad_project_front/static/media/aboutimglogo.7192d5d07a97eeef86ab.png",
     "static/media/doctor-22jpg.jpg": "/grad_project_front/static/media/doctor-22jpg.5bc07e2aa59b4321b324.jpg",
     "static/media/doctor-24.jpg": "/grad_project_front/static/media/doctor-24.80e086b3b9c2ec60b33a.jpg",
     "static/media/fa-v4compatibility.ttf": "/grad_project_front/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/grad_project_front/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/grad_project_front/index.html",
-    "main.d0b87473.css.map": "/grad_project_front/static/css/main.d0b87473.css.map",
-    "main.d3e78199.js.map": "/grad_project_front/static/js/main.d3e78199.js.map",
+    "main.a96ca3b4.css.map": "/grad_project_front/static/css/main.a96ca3b4.css.map",
+    "main.eacdbb9d.js.map": "/grad_project_front/static/js/main.eacdbb9d.js.map",
     "453.c5ba2f6e.chunk.js.map": "/grad_project_front/static/js/453.c5ba2f6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0b87473.css",
-    "static/js/main.d3e78199.js"
+    "static/css/main.a96ca3b4.css",
+    "static/js/main.eacdbb9d.js"
   ]
 }
