@@ -47,9 +47,9 @@ function FeatureBanner () {
 
   <div className="col-xl-3 col-md-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="400">
   <div className="service-item position-relative feature-pargraph">
-    <div className="icon"><i className="fas fa-dna icon"></i></div>
-    <h4>الاستشارات الوراثية</h4>
-    <p>نساعدكم في فهم الجوانب الوراثية لصحتكم لتقديم رعاية مخصصة.</p>
+    <div className="icon"><i className="fas fa-stethoscope icon"></i></div>
+    <h4>الاستشارات الطبية</h4>
+    <p>نساعدكم في فهم الجوانب الطبية لصحتكم لتقديم رعاية مخصصة.</p>
   </div>
   </div>
 

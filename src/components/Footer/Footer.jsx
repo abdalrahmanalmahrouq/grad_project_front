@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class Footer extends Component {
   render() {
@@ -9,9 +10,12 @@ class Footer extends Component {
                         <div className="row gy-4">
                     
                           <div className="col-lg-4 col-md-6 footer-about">
-                            <a href="#" className="logo d-flex align-items-center">
-                              <span className="sitename">ميديسينا</span>
-                            </a>
+                            
+                            <NavLink className="logo d-flex align-items-center" to="/"  onClick={() => window.scrollTo(0, 0)} > 
+                            <span className="sitename">ميديسينا</span>
+                            </NavLink>
+                             
+                          
                             <div className="footer-contact pt-3">
                               <p>شارع تكنولوجيا المعلومات 100</p>
                               <p>الجامعة الهاشمية HU 330127</p>
@@ -23,16 +27,16 @@ class Footer extends Component {
                               </p>
                             </div>
                             <div className="social-links d-flex mt-4">
-                              <a href="">
+                              <a href="/">
                                 <i className="bi bi-twitter-x"></i>
                               </a>
-                              <a href="">
+                              <a href="/">
                                 <i className="bi bi-facebook"></i>
                               </a>
-                              <a href="">
+                              <a href="/">
                                 <i className="bi bi-instagram"></i>
                               </a>
-                              <a href="">
+                              <a href="/">
                                 <i className="bi bi-linkedin"></i>
                               </a>
                             </div>
@@ -41,7 +45,8 @@ class Footer extends Component {
                             <h4>روابط مفيدة</h4>
                             <ul>
                               <li>
-                                <a href="#">الرئيسية</a>
+                                
+                              <NavLink to="/"  onClick={() => window.scrollTo(0, 0)} >الصفحة الرئيسية</NavLink>
                               </li>
                               <li>
                                 <a href="#about">من نحن</a>

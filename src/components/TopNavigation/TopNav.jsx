@@ -39,7 +39,7 @@ class TopNav extends Component {
           <div className= "container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
             
             {/* Logo */}
-            <NavLink to="/" >
+            <NavLink to="/" onClick={() => window.scrollTo(0, 0)} >
               <img src={logo2} alt="ميديسينا" className="logo d-flex align-items-center me-auto" style={{height:"90px",width:"100px"}} />
              
             </NavLink>
@@ -47,10 +47,10 @@ class TopNav extends Component {
             {/* Nav */}
             <nav id="navmenu" className="navmenu me-auto">
               <ul onClick={this.handleNavClick}>
-                <li><NavLink to="/"  >الصفحة الرئيسية</NavLink></li>
-                <li><NavLink to="/about">من نحن</NavLink></li>
-                <li><NavLink to="/clinics">العيادات</NavLink></li>
-                <li><NavLink to="/contact">اتصل بنا</NavLink></li>
+                <li><NavLink to="/" onClick={() => window.scrollTo(0, 0)} >الصفحة الرئيسية</NavLink></li>
+                <li><NavLink to="/about" onClick={() => window.scrollTo(0, 0)}>من نحن</NavLink></li>
+                <li><NavLink to="/clinics" onClick={() => window.scrollTo(0, 0)}>العيادات</NavLink></li>
+                <li><NavLink to="/contact" onClick={() => window.scrollTo(0, 0)}>اتصل بنا</NavLink></li>
                 <li class="dropdown" dir='rtl'  > <NavLink ><span>تسجيل الدخول </span> <i class="bi bi-chevron-down toggle-dropdown "></i></NavLink>
                   <ul class="dropdown-active" >
                     <li> <NavLink  to="/login/patient">مريض</NavLink></li>

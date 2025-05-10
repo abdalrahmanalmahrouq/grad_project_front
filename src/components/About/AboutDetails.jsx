@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from '../../assets/img/mid1.png'
-
+import img1 from '../../assets/img/aboutimglogo.png'
+import img2 from '../../assets/img/aboutimgfeature.jpg'
+import img3 from '../../assets/img/meetourteam.jpg'
 export class AboutDetails extends Component {
 
 
@@ -14,7 +15,7 @@ export class AboutDetails extends Component {
         <div className="row gy-4">
           <div className="col-lg-6 position-relative align-self-start text-center" data-aos="fade-up" data-aos-delay="100">
           
-          <img src={logo} className="img-fluid" alt=""/>
+          <img src={img1} className="img-fluid" alt="" style={{height:300}}/>
           {/* <a href="" className="glightbox pulsating-play-btn"></a> */}
           </div>
           <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="200" dir="rtl">
@@ -34,12 +35,12 @@ export class AboutDetails extends Component {
 
 
          <div className="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-          <img src="https://i.pinimg.com/736x/47/28/90/472890bec732b33b4f876371a5d11fca.jpg" className="img-fluid" alt=""/>
+          <img src={img2}  className="img-fluid" alt=""/>
          
           </div>
          
           <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="200" dir="rtl">
-          <h3 className="about-subtitle pt-5"> ⚙️ مميزات منصتنا</h3>
+          <h3 className="about-subtitle pt-3"> ⚙️ مميزات منصتنا</h3>
          
           <p className="about-text">
             Medicina ليست منصة تقليدية، بل هي نتيجة لشغف بالتكنولوجيا وحرص على تطوير الرعاية الصحية.
@@ -60,13 +61,13 @@ export class AboutDetails extends Component {
 
         <div className="row gy-4 pt-5">
           <div className="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-          <img src="https://i.pinimg.com/736x/e1/72/2f/e1722f91bfb8b4c48c584ccb93e0f78c.jpg" className="img-fluid" alt=""/>
+          <img src={img3} className="img-fluid" alt=""/>
           {/* <a href="" className="glightbox pulsating-play-btn"></a> */}
           </div>
           <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="200" dir="rtl">
           <h3 className="about-subtitle pt-5">👨‍💻 عن فريقنا</h3>
           <p className="about-text">
-            نحن مجموعة طلاب في مجال نظم المعلومات الحاسوبية، اجتمعنا في قاعة دراسية، وقررنا أن نصنع شيئًا حقيقيًا يخدم الناس. بدأ كل شيء بفكرة، ثم تصميم، ثم تطوير استمر لأشهر. هدفنا الأساسي أن نخدم الإنسان بالتكنولوجيا، وأن نُقرّب الرعاية الصحية للناس بأسهل الطرق.
+            نحن مجموعة طلاب في مجال نظم المعلومات الحاسوبية، اجتمعنا و خططنا، وقررنا أن نصنع شيئًا حقيقيًا يخدم الناس. بدأ كل شيء بفكرة، ثم تصميم، ثم تطوير استمر لأشهر. هدفنا الأساسي أن نخدم الإنسان بالتكنولوجيا، وأن نُقرّب الرعاية الصحية للناس بأسهل الطرق.
           </p>
         </div>
 

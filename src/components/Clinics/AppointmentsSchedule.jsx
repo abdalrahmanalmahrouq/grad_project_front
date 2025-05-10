@@ -20,7 +20,7 @@ function  AppointmentsSchedule  () {
         <Container className='doctor-profile' >
         <Row dir="rtl">
                     <Card>
-                        <Card.Header as="h5" className='doctor-title'>ملف الطبيب</Card.Header>
+                        <Card.Header as="h5" className='doctor-title'>حجز الموعد</Card.Header>
                         <Card.Body className="d-flex align-items-center">
                             <Card.Img
                                 variant="top"
